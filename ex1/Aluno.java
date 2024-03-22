@@ -17,8 +17,4 @@ public class Aluno {
     public Double calcularMedia(){
         return (nota1 + nota2 + nota3)/3.0;
     }
-
-    public String getNome(){
-        return nome;
-    }
 }

@@ -12,7 +12,7 @@ public class Exercicio01 {
 
         Aluno aluno = new Aluno(nome, nota1, nota2, nota3);
 
-        Prompt.imprimir("Nome do aluno: " + aluno.getNome());
+        Prompt.imprimir("Nome do aluno: " + aluno.nome);
         Prompt.imprimir("Média do aluno: " + aluno.calcularMedia());
     }
 }
